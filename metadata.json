@@ -1,0 +1,6 @@
+{
+  "name": "CampusFind AI",
+  "description": "Smart College Lost & Found Platform — Lost Something? Let AI Find It.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

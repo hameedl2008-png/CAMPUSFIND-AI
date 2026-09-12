@@ -1,0 +1,230 @@
+{
+  "caseCounter": 2,
+  "users": [
+    {
+      "id": "usr_1789188055678_35bi1",
+      "fullName": "Rahul Sharma",
+      "mobile": "9876543210",
+      "studentId": "21CS101",
+      "department": "Computer Science",
+      "year": "3rd Year",
+      "email": "rahul@campus.edu",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "createdAt": "2026-09-12T04:40:55.678Z"
+    },
+    {
+      "id": "usr_1789188085349_m1rie",
+      "fullName": "Priya Patel",
+      "mobile": "9876543211",
+      "studentId": "21EC202",
+      "department": "Electronics & Comm",
+      "year": "3rd Year",
+      "email": "priya@campus.edu",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "createdAt": "2026-09-12T04:41:25.349Z"
+    },
+    {
+      "id": "usr_1789188805548_hg7z9",
+      "fullName": "Test Student",
+      "mobile": "9998887776",
+      "studentId": "22ME303",
+      "department": "Mechanical",
+      "year": "2nd Year",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "createdAt": "2026-09-12T04:53:25.548Z"
+    },
+    {
+      "id": "usr_1789189425687_8jkv1",
+      "fullName": "Ananya Rao",
+      "mobile": "9871122334",
+      "studentId": "23AIDS042",
+      "department": "MECHATRONICS",
+      "year": "3rd Year",
+      "passwordHash": "dda69783f28fdf6f1c5a83e8400f2472e9300887d1dffffe12a07b92a3d0aa25",
+      "createdAt": "2026-09-12T05:03:45.687Z"
+    }
+  ],
+  "reports": [
+    {
+      "id": "rep_1789188082904_8q8p0",
+      "caseId": "CFA-2026-000001",
+      "type": "LOST",
+      "userId": "usr_1789188055678_35bi1",
+      "userFullName": "Rahul Sharma",
+      "userMobile": "9876543210",
+      "userEmail": "rahul@campus.edu",
+      "category": "Electronics",
+      "itemType": "Mobile Phone",
+      "brand": "Apple",
+      "model": "iPhone 13",
+      "colour": "Black",
+      "hasCase": "Yes",
+      "caseColour": "Blue",
+      "caseDesign": "Corner bumpers",
+      "physicalMarks": "Small hairline scratch on top right bezel",
+      "accessories": "Tempered glass",
+      "location": "Central Canteen / Cafeteria",
+      "dateLostFound": "Today",
+      "approxTime": "Around 1:30 PM",
+      "lockType": "6-digit PIN",
+      "safeUniqueDetails": "Corner scratch",
+      "privateVerificationSecret": "Wallpaper is golden retriever",
+      "imageUrl": "",
+      "status": "ACTIVE",
+      "isTheftSuspicious": false,
+      "theftNotes": "",
+      "createdAt": "2026-09-12T04:41:22.904Z",
+      "updatedAt": "2026-09-12T04:41:22.904Z"
+    },
+    {
+      "id": "rep_1789188085364_4iu5i",
+      "caseId": "CFA-2026-000002",
+      "type": "FOUND",
+      "userId": "usr_1789188085349_m1rie",
+      "userFullName": "Priya Patel",
+      "userMobile": "9876543211",
+      "userEmail": "priya@campus.edu",
+      "category": "Electronics",
+      "itemType": "Mobile Phone",
+      "brand": "Apple",
+      "model": "iPhone 13",
+      "colour": "Black",
+      "hasCase": "Yes",
+      "caseColour": "Blue",
+      "caseDesign": "Blue silicone with bumpers",
+      "physicalMarks": "Small scratch on upper edge",
+      "accessories": "Tempered glass",
+      "location": "Central Canteen / Cafeteria",
+      "dateLostFound": "Today",
+      "approxTime": "Around 1:45 PM",
+      "lockType": "6-digit PIN",
+      "safeUniqueDetails": "Scratch on bezel",
+      "privateVerificationSecret": "",
+      "imageUrl": "",
+      "status": "ACTIVE",
+      "isTheftSuspicious": false,
+      "theftNotes": "",
+      "createdAt": "2026-09-12T04:41:25.364Z",
+      "updatedAt": "2026-09-12T04:41:25.364Z"
+    }
+  ],
+  "matches": [
+    {
+      "id": "match_1789188085365_c60vu",
+      "lostReportId": "rep_1789188082904_8q8p0",
+      "foundReportId": "rep_1789188085364_4iu5i",
+      "lostCaseId": "CFA-2026-000001",
+      "foundCaseId": "CFA-2026-000002",
+      "lostUserId": "usr_1789188055678_35bi1",
+      "foundUserId": "usr_1789188085349_m1rie",
+      "score": 85,
+      "level": "HIGH PROBABILITY",
+      "reasons": [
+        "✓ Same item type: Mobile Phone",
+        "✓ Same brand: Apple",
+        "✓ Exact model match: iPhone 13",
+        "✓ Identical colour: Black",
+        "✓ Corroborating physical descriptions",
+        "✓ Same security lock type: 6-digit PIN",
+        "✓ Matching cover/case colour: Blue",
+        "✓ Matching accessories",
+        "✓ Exact location match: Central Canteen / Cafeteria",
+        "✓ Reported for the same date",
+        "✓ Matching time frame",
+        "✓ Unique identifying traits match"
+      ],
+      "contactAvailable": true,
+      "status": "PENDING",
+      "createdAt": "2026-09-12T04:41:25.365Z",
+      "updatedAt": "2026-09-12T04:41:25.365Z"
+    }
+  ],
+  "verifications": [],
+  "handovers": [],
+  "complaints": [],
+  "alerts": [],
+  "notifications": [
+    {
+      "id": "notif_1789188085366_found",
+      "userId": "usr_1789188085349_m1rie",
+      "title": "Match update for CFA-2026-000002",
+      "message": "85% HIGH PROBABILITY found with item CFA-2026-000001 (Mobile Phone).",
+      "type": "HIGH_PROBABILITY_MATCH",
+      "linkCaseId": "CFA-2026-000002",
+      "read": false,
+      "createdAt": "2026-09-12T04:41:25.366Z"
+    },
+    {
+      "id": "notif_1789188085366_lost",
+      "userId": "usr_1789188055678_35bi1",
+      "title": "Match update for CFA-2026-000001",
+      "message": "85% HIGH PROBABILITY found with item CFA-2026-000002 (Mobile Phone).",
+      "type": "HIGH_PROBABILITY_MATCH",
+      "linkCaseId": "CFA-2026-000001",
+      "read": false,
+      "createdAt": "2026-09-12T04:41:25.366Z"
+    },
+    {
+      "id": "notif_1789188085364_rep",
+      "userId": "usr_1789188085349_m1rie",
+      "title": "Report Created: CFA-2026-000002",
+      "message": "Your found item report for Mobile Phone was submitted successfully. CampusFind AI is scanning active reports for matches.",
+      "type": "REPORT_CREATED",
+      "linkCaseId": "CFA-2026-000002",
+      "read": false,
+      "createdAt": "2026-09-12T04:41:25.364Z"
+    },
+    {
+      "id": "notif_1789188082905_rep",
+      "userId": "usr_1789188055678_35bi1",
+      "title": "Report Created: CFA-2026-000001",
+      "message": "Your lost item report for Mobile Phone was submitted successfully. CampusFind AI is scanning active reports for matches.",
+      "type": "REPORT_CREATED",
+      "linkCaseId": "CFA-2026-000001",
+      "read": false,
+      "createdAt": "2026-09-12T04:41:22.905Z"
+    }
+  ],
+  "timelines": [
+    {
+      "id": "tl_1789188082905_created",
+      "caseId": "CFA-2026-000001",
+      "type": "REPORT_CREATED",
+      "title": "Lost Report Registered",
+      "description": "Mobile Phone (Apple iPhone 13) logged under Case ID CFA-2026-000001.",
+      "timestamp": "2026-09-12T04:41:22.905Z"
+    },
+    {
+      "id": "tl_1789188085364_created",
+      "caseId": "CFA-2026-000002",
+      "type": "REPORT_CREATED",
+      "title": "Found Report Registered",
+      "description": "Mobile Phone (Apple iPhone 13) logged under Case ID CFA-2026-000002.",
+      "timestamp": "2026-09-12T04:41:25.364Z"
+    },
+    {
+      "id": "tl_1789188085366_lost",
+      "caseId": "CFA-2026-000001",
+      "type": "MATCH_FOUND",
+      "title": "Automatic Match Computed: 85% HIGH PROBABILITY",
+      "description": "Identified correlation with Found Case CFA-2026-000002.",
+      "timestamp": "2026-09-12T04:41:25.366Z"
+    },
+    {
+      "id": "tl_1789188085366_found",
+      "caseId": "CFA-2026-000002",
+      "type": "MATCH_FOUND",
+      "title": "Automatic Match Computed: 85% HIGH PROBABILITY",
+      "description": "Identified correlation with Lost Case CFA-2026-000001.",
+      "timestamp": "2026-09-12T04:41:25.366Z"
+    },
+    {
+      "id": "tl_1789188085366_cont_lost",
+      "caseId": "CFA-2026-000001",
+      "type": "CONTACT_RELEASED",
+      "title": "Approved Contact Released",
+      "description": "Match score qualifies (≥50%). Verified student contact accessible.",
+      "timestamp": "2026-09-12T04:41:25.366Z"
+    }
+  ]
+}
